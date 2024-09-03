@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mephius">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <i class="fa-solid fa-terminal"></i>
+        <span>Matheus</span>
+      </div>
+
+      <nav class="navbar">
+        <a href="#about-me">sobre mim</a>
+        <a href="#portfolio">portfólio</a>
+        <a href="#education">educação</a>
+        <a href="#contact">contato</a>
+      </nav>
+    </header>
+
+    <section id="about-me" class="section">
+      <div class="profile-image">
+        <img src="images/mephius.png" alt="imagem do mephius" />
+      </div>
+
+      <div class="profile-description">
+        <h1 class="profile-description-title">
+          <span>Olá, me chamo</span>
+          <span>Matheus</span>
+        </h1>
+
+        <p class="profile-description-content">
+          Desenvolvedor fullstack com foco em ReactJs and Ruby on Rails,
+          gosto de ler e aprender sobre informática e sou apaixonado pela web.
+        </p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <h2 class="portfolio-title">Portfólio</h2>
+
+      <div class="projects">
+        <div class="project-card">
+          <img class="project-img" src="images/challenge1.png" />
+          <p class="project-title">Projeto 1 - CSS DIO</p>
+
+          <a class="project-button" href="https://github.com/MephiusBr/DIO-treinamentos/tree/main/css/desafio-01">ver projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2 class="education-title">
+        <p>Análise e Desenvolvimento de Sistemas</p>
+      </h2>
+
+      <div class="education-content">
+        <div class="education-content-box">
+          <h4 class="education-content-title">Sobre o curso de Análise e Desenvolvimento de Sistemas EAD</h4>
+          <p class="education-content-text">
+As áreas   de tecnologia da informação (TI) e desenvolvimento de software formam um vasto universo de opções. No curso de Análise e Desenvolvimento de Sistemas EAD, você investigará todas estas áreas e ainda trabalhará com linguagens e tecnologias atualizadas com o mercado, como Python, Java e JavaScript. Além disso, este curso não é somente para aqueles que querem programar.
+
+Se você   tem interesse na parte de infraestrutura, manutenção de sistemas, redes de computadores ou mesmo gestão de TI, seja bem-vindo! Você poderá escolher e se especializar em um destes três perfis ao longo do curso: desenvolvimento front-end, desenvolvimento back-end e qualidade de software.
+          </p>
+        </div>
+
+        <div class="education-content-box">
+          <h4 class="education-content-title">O que faz um tecnólogo em Análise e Desenvolvimento de Sistemas?</h4>
+          <p class="education-content-text">
+            <ul class="education-content-list">
+              <li>Coletar informações para compreender as necessidades dos usuários e das empresas;</li>
+              <li>Programar e codificar aplicativos e sistemas;</li>
+              <li>Realizar testes rigorosos para identificar e corrigir erros;</li>
+              <li>Instalar e configurar sistemas de software</li>
+              <li>Participar de equipes e gerenciar projetos.</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="education-content-box">
+          <h4 class="education-content-title">Diferenciais do curso de Tecnologia em Análise e Desenvolvimento de Sistemas EAD da Uninter</h4>
+
+          <p class="education-content-text">
+O curso da Uninter se destaca pela flexibilidade do ensino EAD, permitindo que os alunos estudem de acordo com sua disponibilidade. Além disso, a instituição oferece uma plataforma interativacom videoaulas, material de apoio e suporte de tutores qualificados. A abordagem prática e alinhada com as demandas do mercado também é um diferencial, preparando os alunos para desafios reais.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h4 class="contact-title">Formulário para contato</h4>
+
+      <form class="contact-form">
+        <input type="text" placeholder="digite o seu nome..." />
+        <input type="email" placeholder="digite o seu email..." />
+        <textarea placeholder="digite sua mensagem aqui...">
+        </textarea>
+        <button class="contact-form-btn">
+          enviar mensagem
+        </button>
+      </form>
+    </section>
+
+    <footer class="footer">
+    </footer>
+  </div>
+</body>
+</html>
